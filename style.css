@@ -1,5 +1,6 @@
 body{
     background-color:cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1, h2{
     text-transform: uppercase;
@@ -13,13 +14,27 @@ h3, h2, p{
     text-align: center;
 }
 
-div{
+#datos{
     margin: auto;
     display: block; 
     width: fit-content;
     border: 3px black solid;
     padding: 25px;
+    color: #333;
 }
 #title{
-    
+    background-color: rgb(20, 53, 199);
+    padding: 10px;
+    color:#ccc;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    background-color: rgb(20, 53, 199);
+    padding: 10px;
+    color:#ccc;
+    padding-bottom: 17px;
 }
